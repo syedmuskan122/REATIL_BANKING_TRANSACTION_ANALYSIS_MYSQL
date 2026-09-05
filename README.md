@@ -24,12 +24,17 @@ Full write-up with all insights is in `Retail_Banking_Project_Report.docx`.
 ```
 Retail-Banking-Transaction-Analysis-MySQL/
 ├── 01_sprint01 -create_database.sql                  # Database + table creation (DDL, PKs, FKs, constraints)
+|
 ├── 02_sprint3 -basic_analysis.sql                    # Basic exploration queries (row counts, distinct values, totals)
+|
 ├── 03_sprint4 -objective_based_analysis.sql          # All 5 business objectives (4.1 - 4.5) in one file
+|
 ├── Retail_Banking_Project_Report.docx                # Full written report - business understanding, ER diagram
-│                                                       reasoning, all findings and recommendations
+│                                                       reasoning, all findings and recommendations.
+|
 ├── datasets/                                         # Raw CSV files (customers, accounts, branches, cards,
 │                                                       loans, loan_payments, transactions)
+|
 ├── LICENSE
 └── README.md
 ```
