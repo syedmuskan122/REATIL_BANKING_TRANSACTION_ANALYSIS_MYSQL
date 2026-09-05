@@ -2,14 +2,14 @@
 
 A complete MySQL data analysis project built on a retail bank's data - customers, accounts, branches, cards, loans, loan payments, and transactions. I built the database from scratch, imported 5,000+ transaction records, and wrote SQL queries to answer real business questions about customer behaviour, loan risk, and card usage.
 
-## What this project does
+## What this project does?
 
 - Designs and builds a normalized relational database (`retail_banking`) with 7 tables from raw CSV files
 - Loads and verifies ~9,000+ rows of banking data across customers, accounts, branches, cards, loans, loan payments, and transactions
 - Answers 5 business objectives using SQL (customer profile, account/branch activity, transaction patterns, loan performance, card usage)
 - Turns the query results into real business insights and recommendations
 
-## Key findings
+## Key findings:
 
 - **56% of all loans** in this dataset are Defaulted or In Arrears - the biggest risk signal found
 - Only **6.2% of issued cards** are currently active
@@ -19,7 +19,7 @@ A complete MySQL data analysis project built on a retail bank's data - customers
 
 Full write-up with all insights is in `Retail_Banking_Project_Report.docx`.
 
-## Repository structure
+## Repository structure:
 
 ```
 Retail-Banking-Transaction-Analysis-MySQL/
@@ -39,7 +39,7 @@ Retail-Banking-Transaction-Analysis-MySQL/
 └── README.md
 ```
 
-### What's inside `04_sprint4_objective_based_analysis.sql`
+### What's inside `04_sprint4_objective_based_analysis.sql` ?
 
 This single file covers all five business objectives, each as its own clearly commented section:
 
@@ -51,13 +51,13 @@ This single file covers all five business objectives, each as its own clearly co
 | 4.4 | Loan Performance & Repayment Behaviour |
 | 4.5 | Card Usage & Product Engagement |
 
-## Tech stack
+## Tech stack:
 
 - **Database:** MySQL 8.0
 - **SQL concepts used:** DDL, DML, DQL, JOINs (INNER/LEFT), GROUP BY, HAVING, subqueries, CASE statements, aggregate functions, window-style ratio calculations
 - **Tools:** MySQL Workbench
 
-## How to run this project
+## How to run this project:
 
 1. **Create the database and tables & Import the datasets:**
    Run `01_create_database.sql` in MySQL Workbench (or any MySQL client). This creates the `retail_banking` database and all 7 tables with proper primary keys, foreign keys, and constraints.
@@ -72,7 +72,7 @@ This single file covers all five business objectives, each as its own clearly co
 4. **Read the findings**
    Open `Retail_Banking_Project_Report.docx` for the full write-up - business understanding, ER diagram reasoning, every insight pulled from the queries, and final recommendations.
 
-## Database design (ER overview)
+## Database design (ER overview):
 
 - `customers` and `branches` are independent tables (no foreign keys)
 - `accounts` → `customers`, `branches`
@@ -91,7 +91,7 @@ I am interested in using data to solve real-world problems, discover meaningful 
 - GitHub: https://github.com/syedmuskan122
 
 
-## License
+## License:
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
