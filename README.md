@@ -23,7 +23,7 @@ Full write-up with all insights is in `Retail_Banking_Project_Report.docx`.
 
 ```
 Retail-Banking-Transaction-Analysis-MySQL/
-├── 01_sprint01 -create_database.sql                  # Database + table creation (DDL, PKs, FKs, constraints)
+├── 01_sprint02 -create_database.sql                  # Database + table creation (DDL, PKs, FKs, constraints)
 |
 ├── 02_sprint3 -basic_analysis.sql                    # Basic exploration queries (row counts, distinct values, totals)
 |
