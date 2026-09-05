@@ -1,4 +1,4 @@
-# Retail Banking Transaction Analysis - MySQL
+# 👩‍💻 Retail Banking Transaction Analysis - MySQL
 
 A complete MySQL data analysis project built on a retail bank's data - customers, accounts, branches, cards, loans, loan payments, and transactions. I built the database from scratch, imported 5,000+ transaction records, and wrote SQL queries to answer real business questions about customer behaviour, loan risk, and card usage.
 
@@ -23,14 +23,13 @@ Full write-up with all insights is in `Retail_Banking_Project_Report.docx`.
 
 ```
 Retail-Banking-Transaction-Analysis-MySQL/
-├── 01_create_database.sql                  # Database + table creation (DDL, PKs, FKs, constraints)
-├── 02_import_data.sql                      # Data import from CSV (LOAD DATA INFILE) + row count verification
-├── 03_sprint3_basic_analysis.sql           # Basic exploration queries (row counts, distinct values, totals)
-├── 04_sprint4_objective_based_analysis.sql # All 5 business objectives (4.1 - 4.5) in one file
-├── Retail_Banking_Project_Report.docx      # Full written report - business understanding, ER diagram
-│                                              reasoning, all findings and recommendations
-├── datasets/                               # Raw CSV files (customers, accounts, branches, cards,
-│                                              loans, loan_payments, transactions)
+├── 01_sprint01 -create_database.sql                  # Database + table creation (DDL, PKs, FKs, constraints)
+├── 02_sprint3 -basic_analysis.sql                    # Basic exploration queries (row counts, distinct values, totals)
+├── 03_sprint4 -objective_based_analysis.sql          # All 5 business objectives (4.1 - 4.5) in one file
+├── Retail_Banking_Project_Report.docx                # Full written report - business understanding, ER diagram
+│                                                       reasoning, all findings and recommendations
+├── datasets/                                         # Raw CSV files (customers, accounts, branches, cards,
+│                                                       loans, loan_payments, transactions)
 ├── LICENSE
 └── README.md
 ```
@@ -55,21 +54,17 @@ This single file covers all five business objectives, each as its own clearly co
 
 ## How to run this project
 
-1. **Create the database and tables**
+1. **Create the database and tables & Import the datasets:**
    Run `01_create_database.sql` in MySQL Workbench (or any MySQL client). This creates the `retail_banking` database and all 7 tables with proper primary keys, foreign keys, and constraints.
 
-2. **Import the data**
-   Open `02_import_data.sql`, update the file paths in each `LOAD DATA INFILE` / `LOAD DATA LOCAL INFILE` line to point to wherever you've saved the CSV files from the `datasets/` folder, then run the script.
-   > If you're running MySQL locally and get a `secure_file_priv` or foreign key error, use `LOAD DATA LOCAL INFILE` instead and make sure `local_infile` is enabled on both the server (`SET GLOBAL local_infile = 1;`) and in Workbench (**Edit → Preferences → SQL Editor → Enable Load Data Local Infile**, then restart Workbench).
-
-3. **Verify the import**
+2. **Verify the import**
    The end of `02_import_data.sql` runs a row-count check. Expected counts:
    `customers = 500`, `accounts = 700`, `branches = 40`, `loans = 300`, `loan_payments = 2000`, `cards = 600`, `transactions = 5000`.
 
-4. **Run the analysis**
+3. **Run the analysis**
    Run `03_sprint3_basic_analysis.sql` for the basic exploration queries, then `04_sprint4_objective_based_analysis.sql` for the full objective-based analysis.
 
-5. **Read the findings**
+4. **Read the findings**
    Open `Retail_Banking_Project_Report.docx` for the full write-up - business understanding, ER diagram reasoning, every insight pulled from the queries, and final recommendations.
 
 ## Database design (ER overview)
@@ -83,15 +78,12 @@ This single file covers all five business objectives, each as its own clearly co
 
 ## About me:
 SYED. MUSKAN
-I am interested in using data to solve real-world problems, discover meaningful insights, and build data- driven solutions using AI and analytics. <img width="1485" height="53" alt="image" src="https://github.com/user-attachments/assets/b1e46f46-8fbc-4822-8227-a62e4f577a39" />
-
+I am interested in using data to solve real-world problems, discover meaningful insights, and build data- driven solutions using AI and analytics.
 
 
 - LinkedIn: : www.linkedin.com/in/syed-muskan-b51483316 
-<img width="523" height="53" alt="image" src="https://github.com/user-attachments/assets/90e302a8-4452-4c31-8ecd-aaf3857cb261" />
 
 - GitHub: https://github.com/syedmuskan122
-<img width="382" height="53" alt="image" src="https://github.com/user-attachments/assets/ea0b05fd-ebc3-435d-9f08-caae851e9b49" />
 
 
 ## License
