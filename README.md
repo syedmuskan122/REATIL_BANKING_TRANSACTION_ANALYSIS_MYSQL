@@ -81,12 +81,18 @@ This single file covers all five business objectives, each as its own clearly co
 - `loan_payments` → `loans`
 - `transactions` → `accounts`
 
-## About me
+## About me:
+SYED. MUSKAN
+I am interested in using data to solve real-world problems, discover meaningful insights, and build data- driven solutions using AI and analytics. <img width="1485" height="53" alt="image" src="https://github.com/user-attachments/assets/b1e46f46-8fbc-4822-8227-a62e4f577a39" />
 
 
 
-- LinkedIn:
-- GitHub: 
+- LinkedIn: : www.linkedin.com/in/syed-muskan-b51483316 
+<img width="523" height="53" alt="image" src="https://github.com/user-attachments/assets/90e302a8-4452-4c31-8ecd-aaf3857cb261" />
+
+- GitHub: https://github.com/syedmuskan122
+<img width="382" height="53" alt="image" src="https://github.com/user-attachments/assets/ea0b05fd-ebc3-435d-9f08-caae851e9b49" />
+
 
 ## License
 
